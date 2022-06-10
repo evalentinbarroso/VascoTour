@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+
+    <title>VASCO TOURS</title>
+</head>
+<body  class="fondo">
+ <div class="gridContainerInscripciones">
+  <header> 
+         
+    <nav> 
+        <ul id="nav">
+            <li><a href="../index.html">INICIO</a></li>
+            <li><a href="tours.html">TOURS</a></li>
+            <li><a href="renta.html">RENTA TU BICICLETA</a></li>
+            <li><a href="carreras.html">CARRERAS</a></li>
+        </ul>
+    </nav>
+    <h1 class="pages__h1">VASCOTOURS</h1>
+
+
+
+        <h2 class="iscripciones__h2">INSCRIPCIONES</h2> 
+     </header>
+
+  <main>
+    <section>
+      <form id="inscripciones__form"> 
+        <h3 class="inscripciones__form--h3">COMPLETA LOS SIGUIENTES DATOS</h3>
+        
+         <input name="name" type="text" placeholder=" Nombres y Apellidos" class=" inscripciones__form--imput">
+        <br>
+        <br>
+         <input  name="dni" type="text"  placeholder="DNI" class=" inscripciones__form--imput">
+         <br>
+         <br>
+         <label class="pages__texto">Fecha de Nacimiento </label>
+         <br>
+         <input name="nacimiento" type="date"  placeholder="Fecha de nacimiento" class=" inscripciones__form--imput">
+         <br>
+         <br>
+          <input name="email" type="text" placeholder="E-MAIL" class=" inscripciones__form--imput">
+          <br>
+          <br>
+            <label class="pages__texto">SEXO</label>
+            <br>
+            <input  type="radio" name="sexo" value="masculino" class="pages__texto"> Masculino
+            <input  type="radio" name="sexo" value="femenino">Femenino
+            <br>
+            <br>
+          <input name="password" type="password" placeholder="Genere una clave para su acceso" class=" inscripciones__form--imput">
+          <br>
+          <br>
+          
+         <label class="pages__texto" for="notificaciones">Acepto recibir comunicacion por email</label>
+         
+          <input name="notificaciones" type="checkbox"> 
+          <br>
+          <br>
+      
+     <h3 class="inscripciones__form--h3">SELECCIONE</h3>
+    <br>
+    <fieldset>
+    <legend class="inscripciones__form--h3">SELECCIONE SU</legend>
+    <label for="actividad">Actividad</label>
+    <select name="ACTIVIDAD">
+        <option value="INFRAMUNDO">CENOTE INFRAMUNDO</option>
+        <option value="COCODRIL">CENOTE COCODRIL</option>
+        <option value="VENGANZA">VENGANZA DEL ALUX</option>
+    </select>
+      
+    <label for="plan">PLAN</label>
+    <select name="ACTIVIDAD">
+        <option value="CARRERA">CARRERA</option>
+        <option value="TOUR">TOUR</option>
+    
+    </select>
+    
+      
+    </fieldset>
+    <button class="buttomstyle" type="submit"  name="CONTINUAR" value="CONTINUAR">ENVIAR</button>
+    <button class="buttomstyle" type="reset"  name="BORAR" value="¨BORRAR">BORRAR</button>
+    </form>
+    
+    
+ </section> 
+</main>
+
+ <aside> <img class="imagencarreras" src="../IMAGENES/aside.jpg" id="imgAside"> </aside>
+
+
+
+
+</div>
+
+
+ <footer>
+    <button id="buttonfooter"><a href="pages/inscripciones.html">INSCRIPCIONES</a></button>
+</footer>
+ </body>
