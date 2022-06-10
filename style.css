@@ -261,6 +261,9 @@ form button a
                         
                         }
 
+                        .imagencarreras:hover {
+                          transform:scale(1.2);}
+
 
                         .descripcion { 
                             font-family:  'Open Sans', sans-serif;
