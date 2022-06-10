@@ -295,7 +295,12 @@ form button a
                               }
 
                             #inscripciones__form {
-                                background-color: black;
+                                background:linear-gradient(#DAF7A6,
+                                #FFC300,
+                                #FF5733,
+                                #C70039,
+                                #900C3F,
+                                #581845);
                                 width:600px;
                             
                                 margin-left: 50px;
