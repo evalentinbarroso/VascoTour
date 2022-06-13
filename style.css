@@ -189,27 +189,27 @@ form button a
 
     
     #subtitulo { 
-        font-family:  'Open Sans', sans-serif;
-        color: rgb(241, 204, 38);
-        font: weight 300px;
-        font-size: 50px;
-        text-align: center;
-        margin-top:10px;
-        margin-bottom: 50px;
-      background-color: azure; 
-      animation-delay: 0s;
-      animation-duration: 2s;
-      animation-iteration-count: 3;
-      animation-name: animame;
+      font-family:  'Open Sans', sans-serif;
+      color: rgb(241, 204, 38);
+      font: weight 300px;
+      font-size: 50px;
+      text-align: center;
+      margin-top:10px;
+      margin-bottom: 50px;
+    background-color: azure; 
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+    animation-name: animame;
 }
 
 @keyframes animame {
-  0% {margin-left: 0% ;}
-  20%{margin-left: 20%;}
-  40%{margin-left: 40%;}
-  60%{margin-left: 60%;}
-  80%{margin-left: 80%;}
-  100%{margin-left: 100%;}
+0% {margin-left: 0% ;}
+20%{margin-left: 20%;}
+40%{margin-left: 40%;}
+60%{margin-left: 60%;}
+80%{margin-left: 80%;}
+100%{margin-left: 100%;}
 }
     
 
@@ -296,7 +296,7 @@ form button a
                                 color: antiquewhite;
                               }
 
-                            #inscripciones__form {
+                              #inscripciones__form {
                                 background:linear-gradient(#DAF7A6,
                                 #FFC300,
                                 #FF5733,
